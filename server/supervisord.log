@@ -1,0 +1,23 @@
+2022-06-16 16:49:58,029 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-16 16:49:58,030 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2022-06-16 16:49:58,031 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2022-06-16 16:49:58,031 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2022-06-16 16:49:58,034 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2022-06-16 16:49:58,035 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2022-06-16 16:49:58,036 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2022-06-16 16:49:58,036 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2022-06-16 16:49:58,037 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2022-06-16 16:49:58,063 INFO RPC interface 'supervisor' initialized
+2022-06-16 16:49:58,072 INFO supervisord started with pid 83
+2022-06-16 16:49:59,080 INFO spawned: 'syslogd' with pid 86
+2022-06-16 16:49:59,084 INFO spawned: 'php-fpmd' with pid 87
+2022-06-16 16:49:59,088 INFO spawned: 'apached' with pid 88
+2022-06-16 16:49:59,092 INFO spawned: 'crond' with pid 89
+2022-06-16 16:49:59,099 INFO spawned: 'postfixd' with pid 90
+2022-06-16 16:49:59,105 INFO spawned: 'sshd' with pid 93
+2022-06-16 16:49:59,108 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-16 16:49:59,110 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-16 16:49:59,111 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-16 16:49:59,114 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-16 16:49:59,118 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2022-06-16 16:50:00,573 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

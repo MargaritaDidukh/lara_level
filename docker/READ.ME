@@ -1,0 +1,31 @@
+start project
+    docker-compose up
+    docker-compose up -d
+    docker-compose up --build
+stop project
+    docker-compose stop
+    docker-compose down
+kill project
+    docker-compose kill
+    docker-compose down --rm=all
+
+docker image prune
+docker container prune
+docker volume prune
+
+web
+    http://localhost:8182
+
+mysql:
+    login myapp
+    pass myapp
+
+docker bash:
+    docker exec -it lara_level_php /bin/bash
+
+Run test
+    docker exec -it mydocker_php phpunit
+    docker exec -it mydocker_php phpunit --coverage-html ./coverage
+
+Problem private
+    sudo chown -R $USER server
